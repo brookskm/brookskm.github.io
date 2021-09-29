@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="icon" href="image/favicon.png" />
+    <script src="scripts/jquery.min.js"></script>
 
 </head>
 
@@ -16,25 +17,30 @@
     <header>
         <h1>Khyree Brooks - Software Engineering</h1>
     </header>
-    <nav>
+    <!-- <nav>
         <ul>
             <li><a href="index.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="resume.html">Resume</a></li>
 
-    </nav>
+    </nav> -->
+    <div id="navbar">
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        </div>
     <main>
         <!-- Content here! -->
         <h1>Resume</h1>
-        <h2>
+        <h2 class="fade">
             Education
         </h2>
-        <h3>
+        <h3 class="fade">
             <i>Rose-Hulman Institute of Technology</i>
             <span class="degreeName"></span>Bachelor of Science, Software Engineering</span>
         </h3>
 
-        <h2>Relevant Courses include:</h2>
+        <h2 class="fade">Relevant Courses include:</h2>
         <ul span class="Courses">
             <li>
                 Introduction to Object Oriented Programming
@@ -60,7 +66,7 @@
             </li>
         </ul>
 
-        <dl>
+        <dl class="fade">
             <dt>
                 <h2>Technical Skills<h2>
             </dt>
@@ -78,7 +84,7 @@
             </dd>
         </dl>
 
-        <dl>
+        <dl class="fade">
             <dt>
                 <h2>
                     Software Development Experience
@@ -112,7 +118,7 @@
         </dl>
 
 
-        <dl>
+        <dl class="fade">
             <dt>
                 <h2>
                     Recent Work Experience
@@ -127,7 +133,7 @@
             </dd>
         </dl>
 
-        <dl>
+        <dl class="fade">
             <dt>
                 <h2>
                     Activities
@@ -153,7 +159,7 @@
         </dl>
 
 
-        <dl>
+        <dl class="fade">
             <dt>
                 <h2>
                     Certificates and Awards
@@ -170,6 +176,7 @@
 
 
         <script src="scripts/main.js"> </script>
+
     </main>
     <footer>
         You can email me at brookskm (at) rose-hulman.edu
