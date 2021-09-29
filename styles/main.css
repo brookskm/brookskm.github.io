@@ -104,6 +104,7 @@ body>footer {
 
 header,
 footer {
+    margin-top: 5rem;
     padding-bottom: var(--horizontal-space);
     padding-top: var(--vertical-space);
 }
@@ -111,7 +112,7 @@ footer {
 
 header h1,
 footer h1 {
-    margin: 0;
+    margin-top: 0.5rem;
 }
 
 body#portfolio ul#portfolioItems {
@@ -132,7 +133,9 @@ body#portfolio ul#portfolioItems {
 
 main>img {
     padding-right: 2em;
+
     grid-area: img;
+    float: left;
 }
 
 
